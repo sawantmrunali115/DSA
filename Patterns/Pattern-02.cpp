@@ -1,5 +1,5 @@
 /*
-Problem: Matrix of *
+Problem: matrix of *
 Platform: NA
 Difficulty: Easy
 Concept: NA
@@ -10,19 +10,18 @@ Date Solved: 01-05-2026
 
 /*
 Output: 
-* * * * *
-* * * * *
-* * * * *
-* * * * *
+* 
+* * 
+* * * 
+* * * *
 */
-
 
 #include<bits/stdc++.h>
 using namespace std;
 
 void print(int n) {
     for(int i=0; i<n; i++) {
-        for(int j=0; j<n; j++) {
+        for(int j=0; j<=i; j++) {
             cout << "* ";
         }
         cout << endl;
@@ -30,7 +29,7 @@ void print(int n) {
 }
 
 int main() {
-    int t;
+    int t; 
     cout << "Enter number of test cases: ";
     cin >> t;
 
